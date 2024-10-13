@@ -1,9 +1,8 @@
 phatnguyen:
   name: Phat Nguyen
-  title: Front End Engineer @ Facebook
-  url: https://github.com/phatnguyen
-  image_url: https://github.com/phatnguyen.png
+  title: Software Engineer
+  url: https://github.com/phatnguyentan
+  image_url: https://github.com/phatnguyentan.png
   page: true
   socials:
-    x: phatnguyen
-    github: phatnguyen
+    github: https://github.com/phatnguyentan
