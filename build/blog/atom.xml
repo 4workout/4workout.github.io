@@ -33,9 +33,7 @@
 <h3 class="anchor anchorWithStickyNavbar_LWe7" id="join-the-conversation">Join the Conversation<a href="https://your-docusaurus-site.example.com/blog/welcome#join-the-conversation" class="hash-link" aria-label="Direct link to Join the Conversation" title="Direct link to Join the Conversation">​</a></h3>
 <p>I invite you to engage with the content, share your thoughts, and ask questions. Your journey towards better health is unique, and together, we can inspire and motivate one another.</p>
 <p>Thank you for stopping by! Let’s get started on this path to a healthier body and mind. Stay tuned for exciting posts ahead!</p>
-<p>Here’s to your health and happiness!</p>
-<hr>
-<p>Feel free to customize any part of this welcome message to better fit your style or audience!</p>]]></content>
+<p>Here’s to your health and happiness!</p>]]></content>
         <author>
             <name>Phat Nguyen</name>
             <uri>https://github.com/phatnguyentan</uri>
@@ -44,67 +42,107 @@
         <category label="Docusaurus" term="Docusaurus"/>
     </entry>
     <entry>
-        <title type="html"><![CDATA[MDX Blog Post]]></title>
-        <id>https://your-docusaurus-site.example.com/blog/mdx-blog-post</id>
-        <link href="https://your-docusaurus-site.example.com/blog/mdx-blog-post"/>
-        <updated>2021-08-01T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Blog posts support Docusaurus Markdown features, such as MDX.]]></summary>
-        <content type="html"><![CDATA[<p>Blog posts support <a href="https://docusaurus.io/docs/markdown-features" target="_blank" rel="noopener noreferrer">Docusaurus Markdown features</a>, such as <a href="https://mdxjs.com/" target="_blank" rel="noopener noreferrer">MDX</a>.</p>
-<div class="theme-admonition theme-admonition-tip admonition_xJq3 alert alert--success"><div class="admonitionHeading_Gvgb"><span class="admonitionIcon_Rf37"><svg viewBox="0 0 12 16"><path fill-rule="evenodd" d="M6.5 0C3.48 0 1 2.19 1 5c0 .92.55 2.25 1 3 1.34 2.25 1.78 2.78 2 4v1h5v-1c.22-1.22.66-1.75 2-4 .45-.75 1-2.08 1-3 0-2.81-2.48-5-5.5-5zm3.64 7.48c-.25.44-.47.8-.67 1.11-.86 1.41-1.25 2.06-1.45 3.23-.02.05-.02.11-.02.17H5c0-.06 0-.13-.02-.17-.2-1.17-.59-1.83-1.45-3.23-.2-.31-.42-.67-.67-1.11C2.44 6.78 2 5.65 2 5c0-2.2 2.02-4 4.5-4 1.22 0 2.36.42 3.22 1.19C10.55 2.94 11 3.94 11 5c0 .66-.44 1.78-.86 2.48zM4 14h5c-.23 1.14-1.3 2-2.5 2s-2.27-.86-2.5-2z"></path></svg></span>tip</div><div class="admonitionContent_BuS1"><p>Use the power of React to create interactive blog posts.</p></div></div>
+        <title type="html"><![CDATA[Chemicals in the brain]]></title>
+        <id>https://your-docusaurus-site.example.com/blog/chemicals-in-the-brain</id>
+        <link href="https://your-docusaurus-site.example.com/blog/chemicals-in-the-brain"/>
+        <updated>2024-10-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[List of important chemicals in the brain, often referred to as neurotransmitters, along with their primary functions:]]></summary>
+        <content type="html"><![CDATA[<p>List of important chemicals in the brain, often referred to as neurotransmitters, along with their primary functions:</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-dopamine">1. <strong>Dopamine</strong><a href="https://your-docusaurus-site.example.com/blog/chemicals-in-the-brain#1-dopamine" class="hash-link" aria-label="Direct link to 1-dopamine" title="Direct link to 1-dopamine">​</a></h3>
+<ul>
+<li><strong>Function:</strong> Involved in reward, motivation, and motor control. It plays a key role in the brain's reward system and is linked to pleasure and reinforcement.</li>
+</ul>
 <!-- -->
-<p>For example, use JSX to create an interactive button:</p>
-<div class="language-js codeBlockContainer_Ckt0 theme-code-block" style="--prism-color:#393A34;--prism-background-color:#f6f8fa"><div class="codeBlockContent_biex"><pre tabindex="0" class="prism-code language-js codeBlock_bY9V thin-scrollbar" style="color:#393A34;background-color:#f6f8fa"><code class="codeBlockLines_e6Vv"><span class="token-line" style="color:#393A34"><span class="token operator" style="color:#393A34">&lt;</span><span class="token plain">button onClick</span><span class="token operator" style="color:#393A34">=</span><span class="token punctuation" style="color:#393A34">{</span><span class="token punctuation" style="color:#393A34">(</span><span class="token punctuation" style="color:#393A34">)</span><span class="token plain"> </span><span class="token arrow operator" style="color:#393A34">=&gt;</span><span class="token plain"> </span><span class="token function" style="color:#d73a49">alert</span><span class="token punctuation" style="color:#393A34">(</span><span class="token string" style="color:#e3116c">'button clicked!'</span><span class="token punctuation" style="color:#393A34">)</span><span class="token punctuation" style="color:#393A34">}</span><span class="token operator" style="color:#393A34">&gt;</span><span class="token maybe-class-name">Click</span><span class="token plain"> me</span><span class="token operator" style="color:#393A34">!</span><span class="token operator" style="color:#393A34">&lt;</span><span class="token operator" style="color:#393A34">/</span><span class="token plain">button</span><span class="token operator" style="color:#393A34">&gt;</span><br></span></code></pre><div class="buttonGroup__atx"><button type="button" aria-label="Copy code to clipboard" title="Copy" class="clean-btn"><span class="copyButtonIcons_eSgA" aria-hidden="true"><svg viewBox="0 0 24 24" class="copyButtonIcon_y97N"><path fill="currentColor" d="M19,21H8V7H19M19,5H8A2,2 0 0,0 6,7V21A2,2 0 0,0 8,23H19A2,2 0 0,0 21,21V7A2,2 0 0,0 19,5M16,1H4A2,2 0 0,0 2,3V17H4V3H16V1Z"></path></svg><svg viewBox="0 0 24 24" class="copyButtonSuccessIcon_LjdS"><path fill="currentColor" d="M21,7L9,19L3.5,13.5L4.91,12.09L9,16.17L19.59,5.59L21,7Z"></path></svg></span></button></div></div></div>
-<button>Click me!</button>]]></content>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-serotonin">2. <strong>Serotonin</strong><a href="https://your-docusaurus-site.example.com/blog/chemicals-in-the-brain#2-serotonin" class="hash-link" aria-label="Direct link to 2-serotonin" title="Direct link to 2-serotonin">​</a></h3>
+<ul>
+<li><strong>Function:</strong> Regulates mood, anxiety, and happiness. It also affects sleep, appetite, and digestion.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-norepinephrine">3. <strong>Norepinephrine</strong><a href="https://your-docusaurus-site.example.com/blog/chemicals-in-the-brain#3-norepinephrine" class="hash-link" aria-label="Direct link to 3-norepinephrine" title="Direct link to 3-norepinephrine">​</a></h3>
+<ul>
+<li><strong>Function:</strong> Involved in arousal and alertness. It plays a role in the body's "fight or flight" response and helps regulate mood.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="4-acetylcholine">4. <strong>Acetylcholine</strong><a href="https://your-docusaurus-site.example.com/blog/chemicals-in-the-brain#4-acetylcholine" class="hash-link" aria-label="Direct link to 4-acetylcholine" title="Direct link to 4-acetylcholine">​</a></h3>
+<ul>
+<li><strong>Function:</strong> Important for learning and memory. It also plays a role in muscle movement and the autonomic nervous system.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="5-gamma-aminobutyric-acid-gaba">5. <strong>Gamma-Aminobutyric Acid (GABA)</strong><a href="https://your-docusaurus-site.example.com/blog/chemicals-in-the-brain#5-gamma-aminobutyric-acid-gaba" class="hash-link" aria-label="Direct link to 5-gamma-aminobutyric-acid-gaba" title="Direct link to 5-gamma-aminobutyric-acid-gaba">​</a></h3>
+<ul>
+<li><strong>Function:</strong> The main inhibitory neurotransmitter in the brain. It helps to reduce neuronal excitability and is important for relaxation and anxiety regulation.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="6-glutamate">6. <strong>Glutamate</strong><a href="https://your-docusaurus-site.example.com/blog/chemicals-in-the-brain#6-glutamate" class="hash-link" aria-label="Direct link to 6-glutamate" title="Direct link to 6-glutamate">​</a></h3>
+<ul>
+<li><strong>Function:</strong> The primary excitatory neurotransmitter. It is crucial for synaptic plasticity, learning, and memory.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="7-endorphins">7. <strong>Endorphins</strong><a href="https://your-docusaurus-site.example.com/blog/chemicals-in-the-brain#7-endorphins" class="hash-link" aria-label="Direct link to 7-endorphins" title="Direct link to 7-endorphins">​</a></h3>
+<ul>
+<li><strong>Function:</strong> Act as natural painkillers and are associated with pleasure and reward. They can help reduce pain and induce feelings of euphoria.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="8-oxytocin">8. <strong>Oxytocin</strong><a href="https://your-docusaurus-site.example.com/blog/chemicals-in-the-brain#8-oxytocin" class="hash-link" aria-label="Direct link to 8-oxytocin" title="Direct link to 8-oxytocin">​</a></h3>
+<ul>
+<li><strong>Function:</strong> Often called the "love hormone," it plays a role in social bonding, sexual reproduction, and during and after childbirth.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="9-histamine">9. <strong>Histamine</strong><a href="https://your-docusaurus-site.example.com/blog/chemicals-in-the-brain#9-histamine" class="hash-link" aria-label="Direct link to 9-histamine" title="Direct link to 9-histamine">​</a></h3>
+<ul>
+<li><strong>Function:</strong> Involved in the immune response, but also plays a role in regulating sleep-wake cycles and appetite.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="10-substance-p">10. <strong>Substance P</strong><a href="https://your-docusaurus-site.example.com/blog/chemicals-in-the-brain#10-substance-p" class="hash-link" aria-label="Direct link to 10-substance-p" title="Direct link to 10-substance-p">​</a></h3>
+<ul>
+<li><strong>Function:</strong> Involved in pain perception and inflammatory responses.</li>
+</ul>
+<p>These chemicals work together in complex ways to regulate mood, cognition, behavior, and physiological functions in the body.</p>
+<p>You can enhance your lifestyle and improve focus and motivation by taking care of your physical and mental health. Here are some strategies to support the neurotransmitters and overall brain function:</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="1-nutrition">1. <strong>Nutrition</strong><a href="https://your-docusaurus-site.example.com/blog/chemicals-in-the-brain#1-nutrition" class="hash-link" aria-label="Direct link to 1-nutrition" title="Direct link to 1-nutrition">​</a></h3>
+<ul>
+<li><strong>Balanced Diet:</strong> Eat a variety of foods rich in vitamins, minerals, and antioxidants. Focus on whole grains, lean proteins, healthy fats, fruits, and vegetables.</li>
+<li><strong>Omega-3 Fatty Acids:</strong> These are essential for brain health. Sources include fatty fish (like salmon), walnuts, and flaxseeds.</li>
+<li><strong>Hydration:</strong> Stay well-hydrated, as even mild dehydration can affect concentration and mood.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="2-regular-exercise">2. <strong>Regular Exercise</strong><a href="https://your-docusaurus-site.example.com/blog/chemicals-in-the-brain#2-regular-exercise" class="hash-link" aria-label="Direct link to 2-regular-exercise" title="Direct link to 2-regular-exercise">​</a></h3>
+<ul>
+<li><strong>Aerobic Exercise:</strong> Activities like running, cycling, or swimming increase blood flow to the brain and release endorphins, improving mood and focus.</li>
+<li><strong>Strength Training:</strong> Builds resilience and discipline, contributing to overall mental well-being.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="3-sleep-hygiene">3. <strong>Sleep Hygiene</strong><a href="https://your-docusaurus-site.example.com/blog/chemicals-in-the-brain#3-sleep-hygiene" class="hash-link" aria-label="Direct link to 3-sleep-hygiene" title="Direct link to 3-sleep-hygiene">​</a></h3>
+<ul>
+<li><strong>Quality Sleep:</strong> Aim for 7-9 hours of sleep per night. Good sleep is crucial for memory consolidation and overall mental health.</li>
+<li><strong>Sleep Routine:</strong> Stick to a regular sleep schedule and create a calming bedtime routine.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="4-mindfulness-and-stress-management">4. <strong>Mindfulness and Stress Management</strong><a href="https://your-docusaurus-site.example.com/blog/chemicals-in-the-brain#4-mindfulness-and-stress-management" class="hash-link" aria-label="Direct link to 4-mindfulness-and-stress-management" title="Direct link to 4-mindfulness-and-stress-management">​</a></h3>
+<ul>
+<li><strong>Meditation:</strong> Practice mindfulness or meditation to reduce stress and improve focus. Even a few minutes daily can be beneficial.</li>
+<li><strong>Breathing Exercises:</strong> Simple techniques can help calm the mind and improve concentration.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="5-goal-setting">5. <strong>Goal Setting</strong><a href="https://your-docusaurus-site.example.com/blog/chemicals-in-the-brain#5-goal-setting" class="hash-link" aria-label="Direct link to 5-goal-setting" title="Direct link to 5-goal-setting">​</a></h3>
+<ul>
+<li><strong>SMART Goals:</strong> Set Specific, Measurable, Achievable, Relevant, and Time-bound goals. Break larger goals into smaller, manageable tasks.</li>
+<li><strong>Track Progress:</strong> Keep a journal or use apps to track your achievements and maintain motivation.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="6-social-connections">6. <strong>Social Connections</strong><a href="https://your-docusaurus-site.example.com/blog/chemicals-in-the-brain#6-social-connections" class="hash-link" aria-label="Direct link to 6-social-connections" title="Direct link to 6-social-connections">​</a></h3>
+<ul>
+<li><strong>Build Relationships:</strong> Spend time with supportive friends and family. Social interactions can boost oxytocin levels and enhance emotional well-being.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="7-continuous-learning">7. <strong>Continuous Learning</strong><a href="https://your-docusaurus-site.example.com/blog/chemicals-in-the-brain#7-continuous-learning" class="hash-link" aria-label="Direct link to 7-continuous-learning" title="Direct link to 7-continuous-learning">​</a></h3>
+<ul>
+<li><strong>Engage Your Mind:</strong> Challenge yourself with new skills or knowledge. This can increase neuroplasticity and enhance cognitive function.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="8-limit-distractions">8. <strong>Limit Distractions</strong><a href="https://your-docusaurus-site.example.com/blog/chemicals-in-the-brain#8-limit-distractions" class="hash-link" aria-label="Direct link to 8-limit-distractions" title="Direct link to 8-limit-distractions">​</a></h3>
+<ul>
+<li><strong>Create a Focused Environment:</strong> Minimize distractions in your workspace. Consider techniques like the Pomodoro Technique for time management.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="9-limit-stimulants">9. <strong>Limit Stimulants</strong><a href="https://your-docusaurus-site.example.com/blog/chemicals-in-the-brain#9-limit-stimulants" class="hash-link" aria-label="Direct link to 9-limit-stimulants" title="Direct link to 9-limit-stimulants">​</a></h3>
+<ul>
+<li><strong>Moderate Caffeine and Sugar:</strong> While they can provide short-term boosts, excessive amounts may lead to crashes in energy and focus.</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="10-seek-professional-help">10. <strong>Seek Professional Help</strong><a href="https://your-docusaurus-site.example.com/blog/chemicals-in-the-brain#10-seek-professional-help" class="hash-link" aria-label="Direct link to 10-seek-professional-help" title="Direct link to 10-seek-professional-help">​</a></h3>
+<ul>
+<li><strong>Therapy or Coaching:</strong> If you're struggling with focus or motivation, consider speaking to a therapist or life coach for personalized strategies.</li>
+</ul>
+<p>By incorporating these strategies into your lifestyle, you can improve your focus, motivation, and overall mental well-being, making it easier to work hard toward your goals.</p>]]></content>
         <author>
             <name>Phat Nguyen</name>
             <uri>https://github.com/phatnguyentan</uri>
         </author>
-        <category label="Docusaurus" term="Docusaurus"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[Long Blog Post]]></title>
-        <id>https://your-docusaurus-site.example.com/blog/long-blog-post</id>
-        <link href="https://your-docusaurus-site.example.com/blog/long-blog-post"/>
-        <updated>2019-05-29T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[This is the summary of a very long blog post,]]></summary>
-        <content type="html"><![CDATA[<p>This is the summary of a very long blog post,</p>
-<p>Use a <code>&lt;!--</code> <code>truncate</code> <code>--&gt;</code> comment to limit blog post size in the list view.</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
-        <author>
-            <name>Phat Nguyen</name>
-            <uri>https://github.com/phatnguyentan</uri>
-        </author>
-        <category label="Hello" term="Hello"/>
-        <category label="Docusaurus" term="Docusaurus"/>
-    </entry>
-    <entry>
-        <title type="html"><![CDATA[First Blog Post]]></title>
-        <id>https://your-docusaurus-site.example.com/blog/first-blog-post</id>
-        <link href="https://your-docusaurus-site.example.com/blog/first-blog-post"/>
-        <updated>2019-05-28T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Lorem ipsum dolor sit amet...]]></summary>
-        <content type="html"><![CDATA[<p>Lorem ipsum dolor sit amet...</p>
-<p>...consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet</p>]]></content>
-        <author>
-            <name>Phat Nguyen</name>
-            <uri>https://github.com/phatnguyentan</uri>
-        </author>
-        <category label="Hola" term="Hola"/>
-        <category label="Docusaurus" term="Docusaurus"/>
+        <category label="brain" term="brain"/>
+        <category label="chemical" term="chemical"/>
     </entry>
 </feed>

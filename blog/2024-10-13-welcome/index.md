@@ -11,6 +11,8 @@ Hello and welcome to my blog! I'm thrilled to have you here as we embark on an e
 
 In today’s fast-paced life, maintaining a balance between physical fitness and mental well-being is more important than ever. Whether you’re a seasoned athlete, a fitness enthusiast, or someone just starting their wellness journey, this blog aims to provide valuable insights, tips, and inspiration to help you achieve your goals.
 
+<!-- truncate -->
+
 ### What to Expect
 
 - **Exercise and Workout Tips:** Discover effective workout routines, from strength training and cardio to flexibility exercises. We'll explore how different types of exercise can enhance your physical health and contribute to mental clarity.
@@ -29,5 +31,3 @@ Thank you for stopping by! Let’s get started on this path to a healthier body 
 
 Here’s to your health and happiness!
 
---- 
-Feel free to customize any part of this welcome message to better fit your style or audience!
