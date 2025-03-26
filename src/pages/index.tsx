@@ -7,6 +7,9 @@ import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
 
+import Intro from './../../docs/intro.mdx';
+
+
 function HomepageHeader() {
   const {siteConfig} = useDocusaurusContext();
   return (
@@ -29,7 +32,7 @@ export default function Home(): JSX.Element {
       description="Description will go into a meta tag in <head />">
       <HomepageHeader />
       <main>
-        <HomepageFeatures />
+        <Intro />
       </main>
     </Layout>
   );
