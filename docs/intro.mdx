@@ -1,0 +1,35 @@
+---
+sidebar_position: 1
+slug: /
+---
+import myImageUrl from './upper-body/img/image.png';
+
+# Welcome
+
+<div className="workout-link">
+  <a href="/docs/upper-body">
+    <img 
+      src={myImageUrl}
+      alt="Upper Body Workouts" 
+      className="workout-thumbnail"
+    />
+    <div>View Upper Body Workouts</div>
+  </a>
+</div>
+
+<style>
+{`
+  .workout-link {
+    display: inline-block;
+    text-align: center;
+  }
+  
+  .workout-thumbnail {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin-bottom: 10px;
+  }
+`}
+</style>
