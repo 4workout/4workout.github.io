@@ -84,10 +84,6 @@ module.exports = {
   ],
 };
 
-Copy
-
-Insert at cursor
-javascript
 Adding Content
 Documentation
 Add .md or .mdx files in the docs directory:
@@ -146,7 +142,7 @@ export default MyPage;
 Deployment
 Build
 # Create production build
-npm run build
+yarn build
 
 # Test production build locally
 npm run serve
