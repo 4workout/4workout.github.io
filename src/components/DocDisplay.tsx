@@ -1,43 +1,26 @@
+import { useAllDocsData } from '@docusaurus/plugin-content-docs/client';
 import React from 'react';
-import { useCurrentSidebarCategory } from '@docusaurus/theme-common';
-import Link from '@docusaurus/Link';
 
-function DocsDisplay() {
-  const sidebarCategory = useCurrentSidebarCategory();
+const DocDisplay: React.FC = () => {
+  const allDocsData = useAllDocsData();
   
-  if (!sidebarCategory) {
-    return null;
-  }
+  // Get the tutorial sidebar specifically
+  let upperBodyDocsData = allDocsData.default.versions[0].docs;
+  const config = {"upper-body/upper-body": true}
+  upperBodyDocsData = upperBodyDocsData.filter(doc => {
+    return config[doc.id];
+  })
 
-  const renderItem = (item: any) => {
-    if (item.type === 'link') {
-      return (
-        <li key={item.href}>
-          <Link to={item.href}>{item.label}</Link>
-        </li>
-      );
-    }
-    if (item.type === 'category') {
-      return (
-        <li key={item.label}>
-          <h3>{item.label}</h3>
-          <ul>
-            {item.items?.map((subItem: any) => renderItem(subItem))}
-          </ul>
-        </li>
-      );
-    }
-    return null;
-  };
+  return (
+    <div>
+      <h2>Upper Body Docs:</h2>
+      {upperBodyDocsData && upperBodyDocsData.map((doc, index) => 
+        <div key={index}>
+          {JSON.stringify(doc)}
+        </div>
+      )}
+    </div>
+  );
+};
 
-//   return (
-//     <div>
-//       <h2>{sidebarCategory.label}</h2>
-//       <ul>
-//         {sidebarCategory.items?.map((item: any) => renderItem(item))}
-//       </ul>
-//     </div>
-//   );
-}
-
-export default DocsDisplay;
+export default DocDisplay;

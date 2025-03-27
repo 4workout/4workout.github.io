@@ -1,28 +1,10 @@
-import clsx from 'clsx';
-import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import Layout from '@theme/Layout';
-import HomepageFeatures from '@site/src/components/HomepageFeatures';
-import Heading from '@theme/Heading';
 
 import styles from './index.module.css';
 
-import Intro from './../../docs/intro.mdx';
-
-
-function HomepageHeader() {
-  const {siteConfig} = useDocusaurusContext();
-  return (
-    <header className={clsx('hero hero--primary', styles.heroBanner)}>
-      <div className="container">
-        <Heading as="h1" className="hero__title">
-          {siteConfig.title}
-        </Heading>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-      </div>
-    </header>
-  );
-}
+import DocsDisplay from '../components/DocDisplay';
+import FeaturesPage from '../components/Features/features-page';
 
 export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
@@ -30,10 +12,14 @@ export default function Home(): JSX.Element {
     <Layout
       title={`Hello from ${siteConfig.title}`}
       description="Description will go into a meta tag in <head />">
-      <HomepageHeader />
-      <main>
-        <Intro />
+      <main className={styles.container}>
+        <div className={styles.featuresSection}>
+          <FeaturesPage />
+        </div>
       </main>
+      <div className={styles.docsDisplay}>
+        <DocsDisplay />
+      </div>
     </Layout>
   );
 }
