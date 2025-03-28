@@ -1,5 +1,4 @@
-import myImageUrl from "../../../static/images-docs/upper-body-1/image-1.png";
-import myImageUrl2 from "../../../static/images-docs/upper-body-2/image-1.png";
+import { myImageUrl, myImageUrl2 } from "../../images/images-management";
 
 interface Workout {
   id: number;
@@ -23,5 +22,5 @@ export const workouts: Workout[] = [
     href: "/docs/upper-body/upper-body-2",
     imageUrl: myImageUrl2,
     alt: "Upper Body Workouts",
-  }
+  },
 ];

@@ -4,7 +4,7 @@ import Layout from '@theme/Layout';
 import styles from './index.module.css';
 
 import DocsDisplay from '../components/DocDisplay';
-import FeaturesPage from '../components/Features/features-page';
+import FeaturesPage from '../components/HomePageFeatures/features-page';
 
 export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
