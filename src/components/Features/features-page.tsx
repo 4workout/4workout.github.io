@@ -1,5 +1,7 @@
 import { FC } from 'react';
-import myImageUrl from '../../../static/images-docs/upper-body-1/image-1.jpg';
+import myImageUrl from '../../../static/images-docs/upper-body-1/image-1.png';
+import myImageUrl2 from '../../../static/images-docs/upper-body-2/image-1.png';
+import myImageUrl3 from '../../../static/images-docs/upper-body-3/image-1.png';
 
 // Define types for the workout item
 interface Workout {
@@ -28,14 +30,14 @@ export const FeatureList: FC<WorkoutListProps> = ({ title }) => {
       id: 2,
       title: 'Upper Body 2',
       href: '/docs/upper-body/upper-body-1',
-      imageUrl: myImageUrl,
+      imageUrl: myImageUrl2,
       alt: 'Lower Body Workouts'
     },
     {
       id: 3,
       title: 'Upper Body 3',
       href: '/docs/upper-body/upper-body-1',
-      imageUrl: myImageUrl,
+      imageUrl: myImageUrl3,
       alt: 'Lower Body Workouts'
     }
   ];
