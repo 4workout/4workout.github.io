@@ -1,0 +1,1 @@
+A muscular man with a well-defined upper body is doing a push-up. His posture is perfect, showcasing his toned arms, chest, and shoulders. The style is inspired by manga and anime, with sharp lines and vibrant shading. The background is minimal, emphasizing the intensity and focus of his pose.
