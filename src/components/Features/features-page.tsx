@@ -1,46 +1,13 @@
 import { FC } from 'react';
-import myImageUrl from '../../../static/images-docs/upper-body-1/image-1.png';
-import myImageUrl2 from '../../../static/images-docs/upper-body-2/image-1.png';
-import myImageUrl3 from '../../../static/images-docs/upper-body-3/image-1.png';
-
-// Define types for the workout item
-interface Workout {
-  id: number;
-  title: string;
-  href: string;
-  imageUrl: string;
-  alt: string;
-}
 
 // Define props type if needed to make the component reusable
 interface WorkoutListProps {
   title?: string;
 }
 
+import { workouts } from './features-config';
+
 export const FeatureList: FC<WorkoutListProps> = ({ title }) => {
-  const workouts: Workout[] = [
-    {
-      id: 1,
-      title: 'Upper Body 1',
-      href: '/docs/upper-body/upper-body-1',
-      imageUrl: myImageUrl,
-      alt: 'Upper Body Workouts'
-    },
-    {
-      id: 2,
-      title: 'Upper Body 2',
-      href: '/docs/upper-body/upper-body-1',
-      imageUrl: myImageUrl2,
-      alt: 'Lower Body Workouts'
-    },
-    {
-      id: 3,
-      title: 'Upper Body 3',
-      href: '/docs/upper-body/upper-body-1',
-      imageUrl: myImageUrl3,
-      alt: 'Lower Body Workouts'
-    }
-  ];
 
   return (
     <div className="workout-container">
@@ -56,7 +23,7 @@ export const FeatureList: FC<WorkoutListProps> = ({ title }) => {
                   className="workout-thumbnail"
                 />
                 <div className="workout-title">
-                  View {workout.title} Workouts
+                  View {workout.title}
                 </div>
               </a>
             </div>
@@ -72,7 +39,6 @@ const FeaturesPage: FC = () => {
   return (
     <>
       <div className='features-container'>
-        <FeatureList />
         <FeatureList />
       </div>
 
@@ -101,6 +67,7 @@ const FeaturesPage: FC = () => {
       padding: 1.5rem;
       box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
       transition: all 0.3s ease;
+      max-width: 350px;
     }
 
     .workout-section:hover {
