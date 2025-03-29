@@ -3,8 +3,7 @@ import Layout from '@theme/Layout';
 
 import styles from './index.module.css';
 
-import DocsDisplay from '../components/DocDisplay';
-import FeaturesPage from '../components/HomePageFeatures/features-page';
+import ActionsSection from '../components/action-section/action-section';
 
 export default function Home(): JSX.Element {
   const {siteConfig} = useDocusaurusContext();
@@ -14,12 +13,12 @@ export default function Home(): JSX.Element {
       description="Description will go into a meta tag in <head />">
       <main className={styles.container}>
         <div className={styles.featuresSection}>
-          <FeaturesPage />
+          <ActionsSection />
         </div>
       </main>
-      <div className={styles.docsDisplay}>
+      {/* <div className={styles.docsDisplay}>
         <DocsDisplay />
-      </div>
+      </div> */}
     </Layout>
   );
 }
