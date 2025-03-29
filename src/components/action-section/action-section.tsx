@@ -1,12 +1,11 @@
 import { FC } from 'react';
 import './action-section.css';
+import { actionCategories } from '@site/src/managers/action-manager';
 
 // Define props type if needed to make the component reusable
 interface actionListProps {
   title?: string;
 }
-
-import { actionCategories } from '@site/src/managers/action-manager';
 
 const ActionsSection: FC<actionListProps> = ({ title }) => {
 
@@ -22,14 +21,21 @@ const ActionsSection: FC<actionListProps> = ({ title }) => {
                 className="bg-white rounded-lg shadow-md overflow-hidden"
               >
                 <a href={action.href}>
-                  <div className="light-border p-4">
-                    <h3 className="text-xl font-semibold mb-2">{action.title}</h3>
-                    <div className="aspect-video relative rounded-md overflow-hidden">
+                  <div className="action-container normal-text">
+                    {/* Left side - Image */}
+                    <div className="flex-shrink-0">
                       {action.image}
+                    </div>
+
+                    {/* Right side - Title */}
+                    <div className="flex-grow">
+                      <h4 className="text-xl font-semibold mb-2">{action.title}</h4>
+                      {action.descriptions?.map((des) => (
+                        <p className="font-semibold mb-2">{des}</p>
+                      ))}
                     </div>
                   </div>
                 </a>
-
               </div>
             ))}
           </div>
