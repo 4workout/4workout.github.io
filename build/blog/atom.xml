@@ -8,40 +8,6 @@
     <subtitle>4Workout Blog</subtitle>
     <icon>https://your-docusaurus-site.example.com/img/favicon.ico</icon>
     <entry>
-        <title type="html"><![CDATA[Welcome]]></title>
-        <id>https://your-docusaurus-site.example.com/blog/welcome</id>
-        <link href="https://your-docusaurus-site.example.com/blog/welcome"/>
-        <updated>2024-10-13T00:00:00.000Z</updated>
-        <summary type="html"><![CDATA[Hello and welcome to my blog! I'm thrilled to have you here as we embark on an exciting journey exploring the interconnected worlds of exercise, workout routines, brain health, and nutrition.]]></summary>
-        <content type="html"><![CDATA[<p>Hello and welcome to my blog! I'm thrilled to have you here as we embark on an exciting journey exploring the interconnected worlds of exercise, workout routines, brain health, and nutrition.</p>
-<p>In today’s fast-paced life, maintaining a balance between physical fitness and mental well-being is more important than ever. Whether you’re a seasoned athlete, a fitness enthusiast, or someone just starting their wellness journey, this blog aims to provide valuable insights, tips, and inspiration to help you achieve your goals.</p>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="what-to-expect">What to Expect<a href="https://your-docusaurus-site.example.com/blog/welcome#what-to-expect" class="hash-link" aria-label="Direct link to What to Expect" title="Direct link to What to Expect">​</a></h3>
-<ul>
-<li>
-<p><strong>Exercise and Workout Tips:</strong> Discover effective workout routines, from strength training and cardio to flexibility exercises. We'll explore how different types of exercise can enhance your physical health and contribute to mental clarity.</p>
-</li>
-<li>
-<p><strong>Brain Health:</strong> Learn about the fascinating connection between physical activity and brain function. We’ll delve into how exercise can boost your mood, improve focus, and enhance cognitive performance.</p>
-</li>
-<li>
-<p><strong>Nutrition Insights:</strong> Nutrition plays a crucial role in both physical and mental well-being. Expect discussions on balanced diets, meal planning, and how certain foods can fuel your workouts and support brain health.</p>
-</li>
-<li>
-<p><strong>Personal Stories and Experiences:</strong> I’ll share my personal journey, including challenges and triumphs along the way. I hope to create a supportive community where we can learn from each other’s experiences.</p>
-</li>
-</ul>
-<h3 class="anchor anchorWithStickyNavbar_LWe7" id="join-the-conversation">Join the Conversation<a href="https://your-docusaurus-site.example.com/blog/welcome#join-the-conversation" class="hash-link" aria-label="Direct link to Join the Conversation" title="Direct link to Join the Conversation">​</a></h3>
-<p>I invite you to engage with the content, share your thoughts, and ask questions. Your journey towards better health is unique, and together, we can inspire and motivate one another.</p>
-<p>Thank you for stopping by! Let’s get started on this path to a healthier body and mind. Stay tuned for exciting posts ahead!</p>
-<p>Here’s to your health and happiness!</p>]]></content>
-        <author>
-            <name>Phat Nguyen</name>
-            <uri>https://github.com/phatnguyentan</uri>
-        </author>
-        <category label="Hello" term="Hello"/>
-        <category label="Docusaurus" term="Docusaurus"/>
-    </entry>
-    <entry>
         <title type="html"><![CDATA[Chemicals in the brain]]></title>
         <id>https://your-docusaurus-site.example.com/blog/chemicals-in-the-brain</id>
         <link href="https://your-docusaurus-site.example.com/blog/chemicals-in-the-brain"/>
@@ -181,5 +147,39 @@ Enhances cognitive function and promotes healthy brain chemistry</li>
         </author>
         <category label="brain" term="brain"/>
         <category label="chemical" term="chemical"/>
+    </entry>
+    <entry>
+        <title type="html"><![CDATA[Welcome]]></title>
+        <id>https://your-docusaurus-site.example.com/blog/welcome</id>
+        <link href="https://your-docusaurus-site.example.com/blog/welcome"/>
+        <updated>2024-10-13T00:00:00.000Z</updated>
+        <summary type="html"><![CDATA[Hello and welcome to my blog! I'm thrilled to have you here as we embark on an exciting journey exploring the interconnected worlds of exercise, workout routines, brain health, and nutrition.]]></summary>
+        <content type="html"><![CDATA[<p>Hello and welcome to my blog! I'm thrilled to have you here as we embark on an exciting journey exploring the interconnected worlds of exercise, workout routines, brain health, and nutrition.</p>
+<p>In today’s fast-paced life, maintaining a balance between physical fitness and mental well-being is more important than ever. Whether you’re a seasoned athlete, a fitness enthusiast, or someone just starting their wellness journey, this blog aims to provide valuable insights, tips, and inspiration to help you achieve your goals.</p>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="what-to-expect">What to Expect<a href="https://your-docusaurus-site.example.com/blog/welcome#what-to-expect" class="hash-link" aria-label="Direct link to What to Expect" title="Direct link to What to Expect">​</a></h3>
+<ul>
+<li>
+<p><strong>Exercise and Workout Tips:</strong> Discover effective workout routines, from strength training and cardio to flexibility exercises. We'll explore how different types of exercise can enhance your physical health and contribute to mental clarity.</p>
+</li>
+<li>
+<p><strong>Brain Health:</strong> Learn about the fascinating connection between physical activity and brain function. We’ll delve into how exercise can boost your mood, improve focus, and enhance cognitive performance.</p>
+</li>
+<li>
+<p><strong>Nutrition Insights:</strong> Nutrition plays a crucial role in both physical and mental well-being. Expect discussions on balanced diets, meal planning, and how certain foods can fuel your workouts and support brain health.</p>
+</li>
+<li>
+<p><strong>Personal Stories and Experiences:</strong> I’ll share my personal journey, including challenges and triumphs along the way. I hope to create a supportive community where we can learn from each other’s experiences.</p>
+</li>
+</ul>
+<h3 class="anchor anchorWithStickyNavbar_LWe7" id="join-the-conversation">Join the Conversation<a href="https://your-docusaurus-site.example.com/blog/welcome#join-the-conversation" class="hash-link" aria-label="Direct link to Join the Conversation" title="Direct link to Join the Conversation">​</a></h3>
+<p>I invite you to engage with the content, share your thoughts, and ask questions. Your journey towards better health is unique, and together, we can inspire and motivate one another.</p>
+<p>Thank you for stopping by! Let’s get started on this path to a healthier body and mind. Stay tuned for exciting posts ahead!</p>
+<p>Here’s to your health and happiness!</p>]]></content>
+        <author>
+            <name>Phat Nguyen</name>
+            <uri>https://github.com/phatnguyentan</uri>
+        </author>
+        <category label="Hello" term="Hello"/>
+        <category label="Docusaurus" term="Docusaurus"/>
     </entry>
 </feed>
