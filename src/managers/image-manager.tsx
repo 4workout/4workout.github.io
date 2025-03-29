@@ -1,5 +1,7 @@
 import pushupImageUrl1 from "@site/static/images-docs/pushup/image-1.png";
 import pushupImageUrl2 from "@site/static/images-docs/pushup/image-2.png";
+import armImageUrl1 from "@site/static/images-docs/arm/image-1.png";
+import tricepDipsUrl from "@site/static/images-docs/tricep/tricep-dips.png";
 
 interface ImageComponentProps {
   imageUrl: string;
@@ -20,4 +22,4 @@ const ImageComponent = ({ imageUrl, alt = "", className = "", style }: ImageComp
     </div>
   )
 };
-export { pushupImageUrl1, pushupImageUrl2, ImageComponent }
+export { pushupImageUrl1, pushupImageUrl2, armImageUrl1, tricepDipsUrl, ImageComponent }
