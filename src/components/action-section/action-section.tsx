@@ -96,17 +96,6 @@ const ActionsSection: FC = () => {
       display: block;
     }
 
-    /* Image styles */
-    .action-thumbnail {
-      width: 100%;
-      height: 200px;
-      object-fit: cover;
-      border-radius: 8px;
-      margin-bottom: 1rem;
-      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-      transition: transform 0.3s ease;
-    }
-
     .action-link:hover .action-thumbnail {
       transform: scale(1.05);
     }

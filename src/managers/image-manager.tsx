@@ -10,12 +10,14 @@ interface ImageComponentProps {
 
 const ImageComponent = ({ imageUrl, alt = "", className = "", style }: ImageComponentProps) => {
   return (
-    <img
-      src={imageUrl}
-      alt={alt}
-      className={className}
-      style={style ? style : { width: "100%", height: "auto" }}
-    />
-  );
+    <div className="image-container" style={{ width: "100%", height: "auto", display: "flex", justifyContent: "center", alignContent: "center" }}>
+      <img
+        src={imageUrl}
+        alt={alt}
+        className={className}
+        style={style ? style : { width: "250px", maxWidth: "250px", margin: "0 auto", borderRadius: "8px", boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)" }}
+      />
+    </div>
+  )
 };
 export { upperBodyImageUrl1, upperBodyImageUrl2, ImageComponent }
