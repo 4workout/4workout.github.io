@@ -1,5 +1,5 @@
-import upperBodyImageUrl1 from "@site/static/images-docs/upper-body-1/image-1.png";
-import upperBodyImageUrl2 from "@site/static/images-docs/upper-body-2/image-1.png";
+import pushupImageUrl1 from "@site/static/images-docs/pushup/image-1.png";
+import pushupImageUrl2 from "@site/static/images-docs/pushup/image-2.png";
 
 interface ImageComponentProps {
   imageUrl: string;
@@ -20,4 +20,4 @@ const ImageComponent = ({ imageUrl, alt = "", className = "", style }: ImageComp
     </div>
   )
 };
-export { upperBodyImageUrl1, upperBodyImageUrl2, ImageComponent }
+export { pushupImageUrl1, pushupImageUrl2, ImageComponent }

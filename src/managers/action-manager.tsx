@@ -1,4 +1,4 @@
-import { upperBodyImageUrl1, upperBodyImageUrl2, ImageComponent } from "@site/src/managers/image-manager";
+import { pushupImageUrl1, ImageComponent } from "@site/src/managers/image-manager";
 
 interface Action {
   id: number;
@@ -12,12 +12,12 @@ export const actions: Action[] = [
     id: 1,
     title: "Upper Body Workout Plan (No Equipment)",
     href: "/docs/upper-body/upper-body-1",
-    image: <ImageComponent imageUrl={upperBodyImageUrl1} alt="Upper Body" />
+    image: <ImageComponent imageUrl={pushupImageUrl1} alt="Upper Body" />
   },
   {
     id: 2,
     title: "Upper Body Workout Plan (With Equipment)",
     href: "/docs/upper-body/upper-body-2",
-    image: <ImageComponent imageUrl={upperBodyImageUrl2} alt="Upper Body"/>
+    image: <ImageComponent imageUrl={pushupImageUrl1} alt="Upper Body"/>
   },
 ];
