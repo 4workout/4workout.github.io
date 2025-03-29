@@ -4,7 +4,7 @@
   min-height: 100vh;
   width: 100%;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 1rem;
 }
 
 .featuresSection {
@@ -15,17 +15,10 @@
   padding: 2rem 0;
 }
 
-.docsDisplay {
-  width: 100%;
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 2rem 0;
-}
-
 /* Desktop styles */
 @media (min-width: 768px) {
   .container {
-    padding: 4rem 2rem;
+    padding: 2rem 1rem;
   }
 
   .featuresSection {

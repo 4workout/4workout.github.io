@@ -98,6 +98,13 @@
     }
 } */
 
+/* Large desktop styles */
+@media (min-width: 768px) {
+    .container {
+        padding: 0rem 6rem;
+    }
+}
+
 .bg-white {
     background-color: #ffffff;
 }
