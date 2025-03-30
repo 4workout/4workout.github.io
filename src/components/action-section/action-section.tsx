@@ -10,11 +10,11 @@ interface actionListProps {
 const ActionsSection: FC<actionListProps> = ({ title }) => {
 
   return (
-    <section className="container margin-vert--md padding-vert--lg">
+    <section className="margin-vert--md padding-vert--lg">
       {actionCategories.map((category) => (
         <div key={category.category} className="margin-bottom--lg">
           <h2 className="margin-bottom--sm">{category.category}</h2>
-          <div className="container category-container">
+          <div className="category-container">
             {category.actions.map((action) => (
 
               <div
