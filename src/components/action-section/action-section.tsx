@@ -13,7 +13,7 @@ const ActionsSection: FC<actionListProps> = ({ title }) => {
     <section className="margin-vert--md padding-vert--lg">
       {actionCategories.map((category) => (
         <div key={category.category} className="margin-bottom--lg">
-          <h2 className="margin-bottom--sm">{category.category}</h2>
+          <h3 className="margin-bottom--sm">{category.category}</h3>
           <div className="category-container">
             {category.actions.map((action) => (
 
@@ -23,9 +23,9 @@ const ActionsSection: FC<actionListProps> = ({ title }) => {
               >
                 <div className="card shadow--md">
                   <a href={action.href} className="card__link">
-                    <div className="row padding--lg">
+                    <div className="row padding--md">
                       {/* Left side - Image */}
-                      <div className="card__image col col--3">
+                      <div className="card__image col col--3 padding--md">
                         {action.image}
                       </div>
 
@@ -33,7 +33,7 @@ const ActionsSection: FC<actionListProps> = ({ title }) => {
                       <div className="card__body col col--9">
                         <h4>{action.title}</h4>
                         {action.descriptions?.map((des, index) => (
-                          <small key={index} className="text--bold margin-bottom--sm">
+                          <small key={index} className="">
                             {des}
                           </small>
                         ))}
