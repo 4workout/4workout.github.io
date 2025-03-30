@@ -23,20 +23,21 @@ const ActionsSection: FC<actionListProps> = ({ title }) => {
               >
                 <div className="card shadow--md">
                   <a href={action.href} className="card__link">
-                    <div className="row padding--md">
+                    <div className="row padding--sm">
                       {/* Left side - Image */}
-                      <div className="card__image col col--3 padding--md">
+                      <div className="image-component col col--3">
                         {action.image}
                       </div>
 
                       {/* Right side - Title and Description */}
-                      <div className="card__body col col--9">
+                      <div className="body-component col col--9">
                         <h4>{action.title}</h4>
                         {action.descriptions?.map((des, index) => (
                           <small key={index} className="">
                             {des}
                           </small>
                         ))}
+
                       </div>
                     </div>
                   </a>
