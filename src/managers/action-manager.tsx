@@ -10,6 +10,7 @@ interface Action {
 
 interface ActionCategory {
   category: string;
+  description: string;
   actions: Action[];
 }
 
@@ -19,10 +20,11 @@ const customImageStyle = {
   borderRadius: "8px",
   boxShadow: "0 2px 4px rgba(0, 0, 0, 0.1)"
 } as const;
-
+// Lower Body: "Strong legs are your foundation—take each step with power and purpose!"
 export const actionCategories: ActionCategory[] = [
   {
     category: "Upper Body",
+    description: "Every push and pull builds the strength to tackle anything life throws your way—go for it!",
     actions: [
       {
         id: 1,
@@ -42,6 +44,7 @@ export const actionCategories: ActionCategory[] = [
   },
   {
     category: "Core",
+    description: "Your core is the center of it all—ignite your inner strength and stability!",
     actions: [
       {
         id: 5,

@@ -14,9 +14,9 @@ const ActionsSection: FC<actionListProps> = ({ title }) => {
       {actionCategories.map((category) => (
         <div key={category.category} className="margin-bottom--lg">
           <h3 className="margin-bottom--sm">{category.category}</h3>
+          <p className="text--semibold text--italic">{category.description}</p>
           <div className="category-container">
             {category.actions.map((action) => (
-
               <div
                 key={action.id}
                 className="margin-bottom--sm"
@@ -33,7 +33,7 @@ const ActionsSection: FC<actionListProps> = ({ title }) => {
                       <div className="body-component col col--9">
                         <h4>{action.title}</h4>
                         {action.descriptions?.map((des, index) => (
-                          <small key={index} className="">
+                          <small className="text--normal" key={index}>
                             {des}
                           </small>
                         ))}
