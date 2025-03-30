@@ -28,17 +28,24 @@ export const actionCategories: ActionCategory[] = [
     actions: [
       {
         id: 1,
-        title: "Upper Body Daily",
+        title: "Upper Body Bodyweight",
         descriptions: ["No Equipment"],
         href: "/docs/upper-body/upper-body-1",
         image: <ImageComponent imageUrl={EXERCISE_IMAGES.pushup.basic1} alt="Upper Body" />
       },
       {
         id: 2,
-        title: "Upper Body Daily",
-        descriptions: ["No Equipment"],
+        title: "Upper Body Mixed-Level Dumbbell",
+        descriptions: ["Equipment"],
         href: "/docs/upper-body/upper-body-2",
         image: <ImageComponent imageUrl={EXERCISE_IMAGES.pushup.basic2} alt="Upper Body" />
+      },
+      {
+        id: 3,
+        title: "Upper Body Mixed-Level Bodyweight",
+        descriptions: ["No Equipment"],
+        href: "/docs/upper-body/upper-body-3",
+        image: <ImageComponent imageUrl={EXERCISE_IMAGES.pushup.basic1} alt="Upper Body" />
       },
     ]
   },
