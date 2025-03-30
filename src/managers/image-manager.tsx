@@ -19,7 +19,7 @@ const ImageComponent = ({ imageUrl, alt, className }: ImageComponentProps) => {
       <img
         src={imageUrl}
         alt={alt}
-        className={className || "image-component"}
+        className={className || "shadow--md"}
         loading="lazy"
       />
     </div>

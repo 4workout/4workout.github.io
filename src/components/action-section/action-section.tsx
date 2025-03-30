@@ -10,32 +10,37 @@ interface actionListProps {
 const ActionsSection: FC<actionListProps> = ({ title }) => {
 
   return (
-    <section className="container grid items-center gap-6 pb-8 pt-6 md:py-10">
+    <section className="container margin-vert--md padding-vert--lg">
       {actionCategories.map((category) => (
-        <div key={category.category} className="mb-8">
-          <h2 className="text-2xl font-bold mb-4">{category.category}</h2>
-          <div className="grid gap-4 md:grid-cols-2 lg:grid-cols-3">
+        <div key={category.category} className="margin-bottom--lg">
+          <h2 className="margin-bottom--sm">{category.category}</h2>
+          <div className="container category-container">
             {category.actions.map((action) => (
+
               <div
                 key={action.id}
-                className="bg-white rounded-lg shadow-md overflow-hidden"
+                className="margin-bottom--sm"
               >
-                <a href={action.href}>
-                  <div className="action-container normal-text">
-                    {/* Left side - Image */}
-                    <div className="flex-shrink-0">
-                      {action.image}
-                    </div>
+                <div className="card shadow--md">
+                  <a href={action.href} className="card__link">
+                    <div className="row padding--lg">
+                      {/* Left side - Image */}
+                      <div className="card__image col col--3">
+                        {action.image}
+                      </div>
 
-                    {/* Right side - Title */}
-                    <div className="flex-grow">
-                      <h4 className="text-xl font-semibold mb-2">{action.title}</h4>
-                      {action.descriptions?.map((des) => (
-                        <p className="font-semibold mb-2">{des}</p>
-                      ))}
+                      {/* Right side - Title and Description */}
+                      <div className="card__body col col--9">
+                        <h4>{action.title}</h4>
+                        {action.descriptions?.map((des, index) => (
+                          <small key={index} className="text--bold margin-bottom--sm">
+                            {des}
+                          </small>
+                        ))}
+                      </div>
                     </div>
-                  </div>
-                </a>
+                  </a>
+                </div>
               </div>
             ))}
           </div>
