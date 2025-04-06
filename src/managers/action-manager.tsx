@@ -50,23 +50,29 @@ export const actionCategories: ActionCategory[] = [
     ]
   },
   {
-    category: "Core",
-    description: "Your core is the center of it all—ignite your inner strength and stability!",
+    category: "Metal Health",
+    description: "Your mind is your greatest ally—nurture it with every breath and movement!",
     actions: [
       {
-        id: 5,
-        title: "Core Workout",
-        href: "/docs/core/core-1",
-        descriptions: ["No Equipment"],
-        image: <ImageComponent imageUrl={EXERCISE_IMAGES.plank.basic} alt="Core" />
-      },
+        id: 1,
+        title: "🎉 Rules for a Happier Life",
+        href: "/docs/metal-health/happier-life-1",
+        descriptions: ["10 min"],
+        image: <ImageComponent imageUrl={""} alt="Metal" />
+      }
+    ]
+  },
+  {
+    category: "Financial Health",
+    description: "Your financial health is your foundation—build it with every smart choice and investment!",
+    actions: [
       {
-        id: 6,
-        title: "Core Workout",
-        href: "/docs/core/core-2",
-        descriptions: ["No Equipment"],
-        image: <ImageComponent imageUrl={EXERCISE_IMAGES.plank.basic} alt="Core" />
-      },
+        id: 1,
+        title: "💰 Rules for Building Wealth ",
+        href: "/docs/financial-health/rules-wealthy-1",
+        descriptions: ["10 min"],
+        image: <ImageComponent imageUrl={""} alt="Financial" />
+      }
     ]
   }
 ];

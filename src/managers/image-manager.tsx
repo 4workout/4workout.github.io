@@ -17,7 +17,7 @@ const ImageComponent = ({ imageUrl, alt, className }: ImageComponentProps) => {
   return (
     <div className="image-container">
       <img
-        src={imageUrl}
+        src={imageUrl || "https://placehold.co/300x200?text=Image"}
         alt={alt}
         className={className || "shadow--md"}
         loading="lazy"
